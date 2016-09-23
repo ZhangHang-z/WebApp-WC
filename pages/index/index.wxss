@@ -1,0 +1,39 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.container {
+  background-color: #888;
+  padding: 0;
+}
+
+/** LOGO **/
+.applogo {
+  height: 100rpx;
+  width: 100%;
+  background-color: #4888CB; 
+}
+
+.logotext {
+  text-align: center;
+  font-weight: 800px;
+  color: #fff;
+}
