@@ -4,6 +4,7 @@ var app = getApp()
 Page({
   data: {
     motto: 'Hello World',
+    dlogoname: '查快递',
     userInfo: {}
   },
   //事件处理函数

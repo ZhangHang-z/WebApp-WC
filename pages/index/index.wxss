@@ -29,11 +29,13 @@
 .applogo {
   height: 100rpx;
   width: 100%;
-  background-color: #4888CB; 
+  background-color: #448EF3; 
+  text-align: center;
+  line-height: 100rpx;
 }
 
 .logotext {
-  text-align: center;
-  font-weight: 800px;
+  display: inline;
+  font-weight: 800;
   color: #fff;
 }
