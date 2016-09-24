@@ -10,4 +10,13 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view class="bottom-navigator">
+    <view class="query-now n-query">
+      <button bindtap="changeQueryNow">{{queryNowName}}</button>
+    </view>
+
+    <view class="query-history n-query">
+      <button bindtap="changeQueryHistory">{{queryHistoryName}}</button>
+    </view>
+  </view>
 </view>

@@ -21,15 +21,15 @@
 }
 
 .container {
-  background-color: #888;
+  background-color: #fff;
   padding: 0;
 }
 
-/** LOGO **/
+/** LOGO信息 **/
 .applogo {
   height: 100rpx;
   width: 100%;
-  background-color: #448EF3; 
+  background-color: #448EF3;
   text-align: center;
   line-height: 100rpx;
 }
@@ -38,4 +38,20 @@
   display: inline;
   font-weight: 800;
   color: #fff;
+}
+
+/** 底部导航条 **/
+view::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bottom-navigator {
+  position: fixed;
+  bottom: 0;
+}
+
+.n-query {
+  float: left;
 }

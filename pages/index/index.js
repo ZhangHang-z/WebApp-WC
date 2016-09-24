@@ -1,12 +1,17 @@
 //index.js
 //获取应用实例
 var app = getApp()
+
+dataIndex =  {
+  motto: 'Hello World',
+  dlogoname: '查快递',
+  queryNowName: '查快递',
+  queryHistoryName: '历史',
+  userInfo: {}
+}
+
 Page({
-  data: {
-    motto: 'Hello World',
-    dlogoname: '查快递',
-    userInfo: {}
-  },
+  data: dataIndex,
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
