@@ -40,18 +40,6 @@
   color: #fff;
 }
 
-/** 底部导航条 **/
-view::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .bottom-navigator {
-  position: fixed;
-  bottom: 0;
-}
-
-.n-query {
-  float: left;
+  flex-direction: row;
 }

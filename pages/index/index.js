@@ -4,9 +4,7 @@ var app = getApp()
 
 dataIndex =  {
   motto: 'Hello World',
-  dlogoname: '查快递',
-  queryNowName: '查快递',
-  queryHistoryName: '历史',
+  dlogoname: '快递10000',
   userInfo: {}
 }
 

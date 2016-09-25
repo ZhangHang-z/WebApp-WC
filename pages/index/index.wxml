@@ -3,20 +3,4 @@
   <view class="applogo">
     <text class="logotext">{{dlogoname}}</text>
   </view>
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-  <view class="bottom-navigator">
-    <view class="query-now n-query">
-      <button bindtap="changeQueryNow">{{queryNowName}}</button>
-    </view>
-
-    <view class="query-history n-query">
-      <button bindtap="changeQueryHistory">{{queryHistoryName}}</button>
-    </view>
-  </view>
 </view>
