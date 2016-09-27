@@ -1,0 +1,6 @@
+<!--mine.wxml-->
+<view class="container">
+  <view class="">
+    <text class="minetext">{{name}}</text>
+  </view>
+</view>

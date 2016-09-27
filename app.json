@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/mine/mine"
   ],
   "window":{
     "navigationBarBackgroundColor": "#ffffff",
@@ -22,10 +23,20 @@
         "iconPath": "image/icon/home.png",
         "selectedIconPath": "image/icon/home.png"
       }, {
-        "pagePath": "pages/main/main",
+        "pagePath": "pages/history/history",
         "text": "历史记录",
         "iconPath": "image/icon/history.png",
         "selectedIconPath": "image/icon/history.png"
+      }, {
+        "pagePath": "pages/post/post",
+        "text": "寄快递",
+        "iconPath": "image/icon/travelerbag.png",
+        "selectedIconPath": "image/icon/travelerbag.png"
+      }, {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "image/icon/me.png",
+        "selectedIconPath": "image/icon/me.png"
     }]
   },
   "networkTimeout": {

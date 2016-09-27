@@ -26,5 +26,8 @@ App({
   },
   globalData:{
     userInfo:null
+  },
+  onHide: function() {
+    console.log("微信小程序正在后台运行")
   }
 })
