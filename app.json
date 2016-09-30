@@ -4,7 +4,7 @@
     "pages/logs/logs",
     "pages/mine/mine"
   ],
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "快递查询",

@@ -1,6 +1,21 @@
 <!--mine.wxml-->
 <view class="container">
-  <view class="">
-    <text class="minetext">{{name}}</text>
+  <view data-positionName="userarea">
+  </view>
+  <view data-positionName="notifications" class="section">
+    <navigator class="itemLine" url="navigate?title=messages">
+        <image class="item-icon" src="{{notificationInfo.iconUrl}}"></image>
+        <text class="item-text">{{notificationInfo.text}}</text>
+    </navigator>
+  </view>
+  <view data-positionName="address" class="section">
+    <navigator wx:for="{{addInfo}}" class="itemLine lineseparate" url="navigate?title={{item.navigatorTitle}}">
+        <image data-index="{{index}}" class="item-icon" src="{{item.iconUrl}}"></image>
+        <text data-index="{{index}}" class="item-text">{{item.text}}</text>
+    </navigator>
+  </view>
+  <view data-positionName="feedback">
+  </view>
+  <view data-positionName="setting">
   </view>
 </view>

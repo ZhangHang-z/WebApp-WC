@@ -1,0 +1,44 @@
+/**
+* user's page WeiXin Style Sheets
+**/
+
+.container {
+  background-color: #EBEBEB;
+  font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  left: 0;
+  display: block;
+  margin-top: 10rpx;
+  padding: 0;
+}
+
+
+.itemLine {
+  height: 100rpx;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.item-text {
+  color: #000;
+  float: left;
+  line-height: 100rpx;
+  height: 100rpx;
+  margin-left: 10rpx;
+}
+
+.item-icon {
+  float: left;
+  width: 70rpx;
+  height: 70rpx;
+  margin: 15rpx;
+}
+
+.lineseparate {
+  border-bottom: 1px solid #F8F8FF;
+}
