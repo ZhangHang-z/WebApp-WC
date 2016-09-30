@@ -3,18 +3,36 @@
   <view data-positionName="userarea">
   </view>
   <view data-positionName="notifications" class="section">
-    <navigator class="itemLine" url="navigate?title=messages">
-        <image class="item-icon" src="{{notificationInfo.iconUrl}}"></image>
-        <text class="item-text">{{notificationInfo.text}}</text>
+    <navigator class="itemLine" hover-class="oneLineHover" url="navigate?title=messages">
+        <view class="itemLineView {{item.nextLineWXSS}}">
+          <image class="item-icon" src="{{notificationInfo.iconUrl}}"></image>
+          <text class="item-text">{{notificationInfo.text}}</text>
+        </view>
     </navigator>
   </view>
   <view data-positionName="address" class="section">
-    <navigator wx:for="{{addInfo}}" class="itemLine lineseparate" url="navigate?title={{item.navigatorTitle}}">
-        <image data-index="{{index}}" class="item-icon" src="{{item.iconUrl}}"></image>
-        <text data-index="{{index}}" class="item-text">{{item.text}}</text>
-    </navigator>
+      <navigator wx:for="{{addInfo}}" class="itemLine" hover-class="oneLineHover" url="navigate?title={{item.navigatorTitle}}">
+        <view class="itemLineView {{item.nextLineWXSS}}">
+          <image data-index="{{index}}" class="item-icon" src="{{item.iconUrl}}"></image>
+          <text data-index="{{index}}" class="item-text">{{item.text}}</text>
+        </view>
+      </navigator>
   </view>
-  <view data-positionName="feedback">
+  <view data-positionName="feedback" class="section">
+      <navigator wx:for="{{feedbackInfo}}" class="itemLine" hover-class="oneLineHover" url="navigate?title={{item.navigatorTitle}}">
+        <view class="itemLineView {{item.nextLineWXSS}}">
+          <image data-index="{{index}}" class="item-icon" src="{{item.iconUrl}}"></image>
+          <text data-index="{{index}}" class="item-text">{{item.text}}</text>
+        </view>
+      </navigator>
+  </view>
+  <view data-positionName="about" class="section">
+      <navigator wx:for="{{aboutInfo}}" class="itemLine" hover-class="oneLineHover" url="navigate?title={{item.navigatorTitle}}">
+        <view class="itemLineView {{item.nextLineWXSS}}">
+          <image data-index="{{index}}" class="item-icon" src="{{item.iconUrl}}"></image>
+          <text data-index="{{index}}" class="item-text">{{item.text}}</text>
+        </view>
+      </navigator>
   </view>
   <view data-positionName="setting">
   </view>
