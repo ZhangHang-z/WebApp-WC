@@ -1,6 +1,13 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="applogo">
-    <text class="logotext">{{dlogoname}}</text>
+  <view class="query-exp-box">
+    <view class="view-exp">
+      <view class="ve-head-title">
+        <text class="ve-line ve-order-number">快递单号</text>
+      </view>
+      <view class="ve-head-title">
+        <text id="selectExpressage" class="ve-line ve-select-exp-company">快递公司</text>
+      </view>
+    </view>
   </view>
 </view>

@@ -3,9 +3,7 @@
 var app = getApp()
 
 dataIndex =  {
-  motto: 'Hello World',
-  dlogoname: '快递10000',
-  userInfo: {}
+
 }
 
 Page({

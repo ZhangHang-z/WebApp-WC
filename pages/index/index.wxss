@@ -1,45 +1,36 @@
-/**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-}
-
+/** index.wxss **/
 .container {
+  background-color: #EBEBEB;
+  font-family: "Helvetica Neue","Hiragino Sans GB","Microsoft YaHei","\9ED1\4F53",Arial,sans-serif;
+}
+
+.query-exp-box {
   background-color: #fff;
-  padding: 0;
-}
-
-/** LOGO信息 **/
-.applogo {
-  height: 100rpx;
   width: 100%;
-  background-color: #448EF3;
-  text-align: center;
-  line-height: 100rpx;
+  padding: 15px 0px;
+  margin-top: 15px;
 }
 
-.logotext {
-  display: inline;
-  font-weight: 800;
-  color: #fff;
-}
-
-.bottom-navigator {
+.view-exp {
+  display: flex;
   flex-direction: row;
+  padding: 0px 15px;
+  border-left: 4px solid #43CD80;
+}
+
+.ve-line {
+  font-size: 28rpx;
+  height: 28px;
+  line-height: 28px;
+}
+
+.ve-head-title {
+  flex: 1;
+}
+
+.ve-select-exp-company {
+  float: right;
+}
+.ve-order-number {
+  float: left;
 }
