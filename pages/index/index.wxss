@@ -7,21 +7,21 @@
 .query-exp-box {
   background-color: #fff;
   width: 100%;
-  padding: 15px 0px;
-  margin-top: 15px;
+  padding-top: 36rpx;
+  margin-top: 20rpx;
 }
 
 .view-exp {
   display: flex;
   flex-direction: row;
-  padding: 0px 15px;
-  border-left: 4px solid #43CD80;
+  padding: 0px 26rpx;
+  margin-bottom: 25rpx;
 }
 
 .ve-line {
-  font-size: 28rpx;
-  height: 28px;
-  line-height: 28px;
+  font-size: 35rpx;
+  height: 40rpx;
+  line-height: 40rpx;
 }
 
 .ve-head-title {
@@ -33,4 +33,26 @@
 }
 .ve-order-number {
   float: left;
+}
+
+.input-expcode {
+  display: flex;
+  width: 100%;
+}
+
+.input-bar {
+  flex: 4;
+  font-size: 50rpx;
+}
+
+.form-single {
+  height: 50rpx;
+}
+.scanform {
+  padding: 35rpx 30rpx;
+}
+
+.btn-scan {
+  height: 50rpx;
+  width: 50rpx
 }

@@ -1,13 +1,22 @@
 <!--index.wxml-->
 <view class="container">
   <view class="query-exp-box">
-    <view class="view-exp">
+    <view class="view-exp" style="border-left: 3px solid #42CD79;">
       <view class="ve-head-title">
-        <text class="ve-line ve-order-number">快递单号</text>
+        <text class="ve-line ve-order-number">运单号</text>
       </view>
       <view class="ve-head-title">
-        <text id="selectExpressage" class="ve-line ve-select-exp-company">快递公司</text>
+        <text id="selectExpressage" class="ve-line ve-select-exp-company" bindtap="bindChangeExpressageCompany">快递公司</text>
       </view>
+    </view>
+
+    <view class="scanform">
+      <form bindsubmit="formSubmit" bindreset="formReset">
+        <view class="input-expcode">
+          <input class="form-single input-bar" placeholder="输入快递单号" />
+          <image class="btn-scan" src="../../image/icon/scan2.png" bindtap="bindScanExpressageCode" />
+        </view>
+      </form>
     </view>
   </view>
 </view>

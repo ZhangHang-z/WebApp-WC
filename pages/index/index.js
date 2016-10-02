@@ -25,5 +25,16 @@ Page({
       })
       that.update()
     })
-  }
+  },
+  bindScanExpressageCode: scanExpressageCode,
+  bindChangeExpressage: changeExpressageCompany
 })
+
+
+function scanExpressageCode() {
+  console.log("3333")
+}
+
+function changeExpressageCompany() {
+
+}
