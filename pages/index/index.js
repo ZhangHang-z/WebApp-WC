@@ -27,14 +27,15 @@ Page({
     })
   },
   bindScanExpressageCode: scanExpressageCode,
-  bindChangeExpressage: changeExpressageCompany
+  bindChangeExpressageCompany: changeExpressageCompany
 })
-
 
 function scanExpressageCode() {
   console.log("3333")
 }
 
 function changeExpressageCompany() {
-
+  wx.navigateTo({
+    url: '../change-expressage/change-expressage'
+  })
 }

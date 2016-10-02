@@ -1,0 +1,14 @@
+<!--change-expressage.wxml-->
+<view class="page">
+  <view class="search-exp-box">
+    <view class="" style="width: 100%;">
+      <form class="" style="width:100%;">
+        <image class="search-exp-icon s-exp-1" src="../../image/icon/search.png"></image>
+        <input class="search-exp-input s-exp-1" placeholder="输入快递公司" />
+      </form>
+    </view>
+  </view>
+
+  <view class="">
+  </view>
+</view>

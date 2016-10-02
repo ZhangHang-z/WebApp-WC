@@ -1,0 +1,35 @@
+
+.page {
+  background-color: #EBEBEB;
+  height: 100%;
+}
+
+.search-exp-box {
+  padding: 12rpx;
+  background-color: #EBEBEB;
+}
+
+.search-exp-input {
+  font-size: 40rpx;
+}
+
+.s-exp-1 {
+  height: 64rpx;
+  line-height: 64rpx;
+}
+
+.search-exp-icon {
+  float: left;
+  width: 10%;
+  padding: 5rpx 3%;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.search-exp-input {
+  float: right;
+  width: 84%;
+  min-height: 64rpx;
+  background-color: #fff;
+  padding: 5rpx 0rpx;
+}

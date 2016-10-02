@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/change-expressage/change-expressage"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
