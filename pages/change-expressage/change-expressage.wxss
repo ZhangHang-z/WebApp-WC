@@ -1,35 +1,40 @@
-
 .page {
   background-color: #EBEBEB;
   height: 100%;
 }
 
 .search-exp-box {
-  padding: 12rpx;
+  padding: 14rpx;
   background-color: #EBEBEB;
 }
 
-.search-exp-input {
-  font-size: 40rpx;
+/* has problem */
+.search-form::after {
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .s-exp-1 {
-  height: 64rpx;
-  line-height: 64rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+  padding: 14rpx 0rpx;
 }
 
 .search-exp-icon {
-  float: left;
-  width: 10%;
-  padding: 5rpx 3%;
+  position: absolute;
+  padding-left: 15rpx;
+  left: 0;
+  top: 0;
+  width: 44rpx;
   background-color: #fff;
   overflow: hidden;
 }
 
 .search-exp-input {
-  float: right;
-  width: 84%;
-  min-height: 64rpx;
+  font-size: 25rpx;
+  padding-left: 70rpx;
+  width: 100%;
+  min-height: 34rpx;
   background-color: #fff;
-  padding: 5rpx 0rpx;
 }
